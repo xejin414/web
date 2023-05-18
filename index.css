@@ -1,0 +1,87 @@
+*{margin:0;padding: 0;}
+ul{
+    list-style: none;
+}
+.wrap .section{
+    box-sizing: border-box;
+    padding-top: 46px;
+}
+.wrap .section:nth-child(1){background: url(images/main.jpg) top/cover;}
+.wrap .section:nth-child(2){background: url(images/silde01.jpg) top/cover;}
+.wrap .section:nth-child(3){background: url(images/silde02.jpg) top/cover;}
+.wrap .section:nth-child(4){background: url(images/silde03.jpg) top/cover;}
+.wrap .section:nth-child(5){background: url(images/silde04.jpg) top/cover;}
+.wrap .section:nth-child(6){background: url(images/silde05.jpg) top/cover;}
+.wrap .section:nth-child(7){background: url(images/silde06.jpg) top/cover;}
+.wrap .section:nth-child(8){background: url(images/silde07.jpg) top/cover;}
+.wrap .section:nth-child(9){background: url(images/silde08.jpg) top/cover;}
+.wrap .section:nth-child(10){background: url(images/silde09.jpg) top/cover;}
+
+
+.gnb{
+    position: fixed;
+    z-index: 10;
+    width:100%;
+    height: 46px;
+    background-color: rgba(0,0,0,0.6);
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+}
+.gnb .menu{
+    width:30%;
+    min-width: 600px;
+    display: flex;
+    
+}
+.gnb li{
+    flex:1 1;
+    height: 46px;
+    line-height: 46px;
+}
+.gnb a:link , .gnb a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.wrap .section:nth-child(2) ul{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    position: absolute;
+    z-index: 2;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.wrap .section:nth-child(2) li{
+    flex:0 1 300px;
+    height: 300px;
+    background-color: red;
+    margin-right:2px;
+    margin-bottom: 2px;
+}
+
+.wrap .section:nth-child(2) li:nth-child(1) a{
+    display: block;
+    width:100%;
+    height: 100%;
+    background: url(./images/small.jpg) top/cover;
+}
+
+
+.wrap .section:nth-child(2) li:nth-child(2) a{
+    display: block;
+    width:100%;
+    height: 100%;
+    background: url(./images/small2.jpg) top/cover;
+}
+
+
+.wrap .section:nth-child(2) li:nth-child(3) a{
+    display: block;
+    width:100%;
+    height: 100%;
+    background: url(./images/small.jpg) top/cover;
+}
